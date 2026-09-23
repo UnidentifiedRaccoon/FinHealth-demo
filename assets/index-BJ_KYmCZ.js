@@ -1,0 +1,1 @@
+import{a as e,c as t,f as n,i as r,u as i}from"./entry-urls-Cg1DOYGy.js";import{t as a}from"./navigation-JHlLnzAN.js";var o=n(i(),1),s=t(),c=r();(0,s.createRoot)(document.getElementById(`root`)).render((0,c.jsx)(o.StrictMode,{children:(0,c.jsx)(a,{initialRoute:`month`,createSession:e,reviewTools:!1})}));
