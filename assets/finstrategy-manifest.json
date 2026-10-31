@@ -1,28 +1,29 @@
 {
   "version": 1,
   "courseId": "finstrategy",
-  "lessonCount": 28,
+  "lessonCount": 75,
   "moduleIds": [
+    "course-introduction",
+    "financial-parenting",
+    "child-materials",
     "financial-goals",
     "cash-flows",
     "financial-habits",
-    "financial-parenting",
-    "child-materials"
+    "financial-protection",
+    "assets-and-liabilities",
+    "money-mindset",
+    "credit-load",
+    "investments",
+    "financial-independence",
+    "financial-strategy"
   ],
   "lessonIds": [
-    "core-01-values",
-    "core-01-future-vision",
-    "core-01-goals",
-    "core-01-motivation",
-    "core-01-final-test",
-    "core-02-budget-principles",
-    "core-02-cash-flow-optimization",
-    "core-02-banking-tax",
-    "core-02-declutter",
-    "core-03-how-habits-work",
-    "core-03-harmful-habits",
-    "core-03-useful-habits",
-    "core-03-build-useful-habits",
+    "diagnostics",
+    "workbook-full",
+    "course-welcome",
+    "course-start",
+    "workbook-demo",
+    "questionnaire",
     "welcome",
     "introduction",
     "children-7-9",
@@ -37,15 +38,69 @@
     "child-savings-trackers",
     "child-time-planner",
     "child-gift-planner",
-    "child-habits"
+    "child-habits",
+    "core-01-entry-test",
+    "core-01-values",
+    "core-01-future-vision",
+    "core-01-goals",
+    "core-01-motivation",
+    "core-01-final-test",
+    "core-02-entry-test",
+    "core-02-budget-principles",
+    "core-02-cash-flow-optimization",
+    "core-02-banking-tax",
+    "core-02-declutter",
+    "core-02-final-test",
+    "core-03-entry-test",
+    "core-03-how-habits-work",
+    "core-03-harmful-habits",
+    "core-03-useful-habits",
+    "core-03-build-useful-habits",
+    "core-03-final-test",
+    "core-04-entry-test",
+    "core-04-family-protection",
+    "core-04-reserve-fund",
+    "core-04-life-health-protection",
+    "core-04-property-protection",
+    "core-04-final-test",
+    "core-05-entry-test",
+    "core-05-family-balance",
+    "core-05-asset-efficiency",
+    "core-05-credit-load",
+    "core-05-balance-optimization",
+    "core-05-final-test",
+    "core-06-entry-test",
+    "core-06-money-mindset",
+    "core-06-final-test",
+    "core-07-entry-test",
+    "core-07-credit-principles",
+    "core-07-credit-load-optimization",
+    "core-07-mortgages",
+    "core-07-insurance",
+    "core-07-final-test",
+    "core-08-entry-test",
+    "core-08-financial-markets",
+    "core-08-investment-intermediaries",
+    "core-08-individual-investment-accounts",
+    "core-08-investment-portfolio",
+    "core-08-final-test",
+    "core-09-entry-test",
+    "core-09-retirement-planning",
+    "core-09-state-pension",
+    "core-09-pension-instruments",
+    "core-09-independence-plan",
+    "core-09-final-test",
+    "core-10-entry-test",
+    "core-10-assembly",
+    "core-10-final-test"
   ],
   "files": [
     {
       "path": "assets/finstrategy-course.json",
       "source": "course.json",
       "role": "course",
-      "bytes": 546962,
-      "sha256": "58a59d6628f8c817ac6474e5209249b996303b4a4fd8698afc5c0616f0715cd6"
+      "bytes": 1914325,
+      "sha256": "ecb85aadaee67d89d98f98e3333a97f809a32ca8fc1c1a2bebb1ebb90d754fc2"
     },
     {
       "path": "assets/finstrategy-bank-card.pdf",
@@ -818,11 +873,634 @@
       "sha256": "b74431dfcba5dcef9776d46db2dc2b6d0c63dfcaf1c41381d862e6fa2c9ea339"
     },
     {
+      "path": "assets/finstrategy-core-04-213860712-01.pdf",
+      "source": "files/core-04-213860712-01.pdf",
+      "role": "attachment",
+      "bytes": 290550,
+      "sha256": "c4abdafb1a2e4a40af35ead27e8fe8f7279037cd10e7f14d8fbc89231858e472"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-02.pdf",
+      "source": "files/core-04-213860712-02.pdf",
+      "role": "attachment",
+      "bytes": 111318,
+      "sha256": "bcd48e6fbd2db035f00c8fa452be375230e9f80575a2d0e5deb820f2919f4f90"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-02.png",
+      "source": "files/core-04-213860712-02.png",
+      "role": "image",
+      "bytes": 26802,
+      "sha256": "ecce71933195b38da9f7687fb22882a66e54bc98c652bed3aab8eeb3ab9b730d"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-03.pdf",
+      "source": "files/core-04-213860712-03.pdf",
+      "role": "attachment",
+      "bytes": 76247,
+      "sha256": "5b3ed8b999ed6d3503050028059bd020b85ea046d4f0de18d46142cb3c3a77dc"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-03.png",
+      "source": "files/core-04-213860712-03.png",
+      "role": "image",
+      "bytes": 29620,
+      "sha256": "44b29ee1934feed06746abccf0ad9df1faebe68566b220a784616f1d7ea2f827"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-04.docx",
+      "source": "files/core-04-213860712-04.docx",
+      "role": "attachment",
+      "bytes": 15535,
+      "sha256": "fff1c400838b506f142977a6cd49d39c63c04d8f9171f159db9fc1134bb6e114"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-04.png",
+      "source": "files/core-04-213860712-04.png",
+      "role": "image",
+      "bytes": 20498,
+      "sha256": "79888e6fd1eff5edc524aef616ee0a500a6580e0d347fc95ba51066b58cd75d5"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-05.pdf",
+      "source": "files/core-04-213860712-05.pdf",
+      "role": "attachment",
+      "bytes": 3078141,
+      "sha256": "6475b1c28cf91e1a22bace9f3c8678ee74c573cc4a6c5efab5efe8c3a09c4fdb"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860712-07.png",
+      "source": "files/core-04-213860712-07.png",
+      "role": "image",
+      "bytes": 63116,
+      "sha256": "574e48d9b6e60dc23fc842bf089fef471db92fa71ab881e109d95bd32b45fd2f"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-01.pdf",
+      "source": "files/core-04-213860718-01.pdf",
+      "role": "attachment",
+      "bytes": 114248,
+      "sha256": "ce35b85b26313260625db6e3d8cef33e7a7fbaf746ec5b48db352d25a241b12c"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-01.png",
+      "source": "files/core-04-213860718-01.png",
+      "role": "image",
+      "bytes": 58974,
+      "sha256": "f64a1ff1188273927898868afe90f4244254eaa1ff84f94af4c2f04a013a5671"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-02.pdf",
+      "source": "files/core-04-213860718-02.pdf",
+      "role": "attachment",
+      "bytes": 66120,
+      "sha256": "506c4daf3c854adc80b7c2263652779937daa37621a358150a563a5e429483dc"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-02.png",
+      "source": "files/core-04-213860718-02.png",
+      "role": "image",
+      "bytes": 28011,
+      "sha256": "eab15ece6761805edd3d43ab062c323ece20dcb53b9008d3993e103e8c703788"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-03.pdf",
+      "source": "files/core-04-213860718-03.pdf",
+      "role": "attachment",
+      "bytes": 73643,
+      "sha256": "0eaa40240ae37989288431735e8e68f9b78980857bfdbfcb95169e705c44c022"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-03.png",
+      "source": "files/core-04-213860718-03.png",
+      "role": "image",
+      "bytes": 326270,
+      "sha256": "b4150f11624d2d423a55a1e6ac3e460940a3dccd248a2961198c0d4b2e76eaff"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-04.pdf",
+      "source": "files/core-04-213860718-04.pdf",
+      "role": "attachment",
+      "bytes": 80068,
+      "sha256": "45afd012728c1d323f524958a86eaf77475b6e00b62d07d1130ae317ecf7c401"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-04.png",
+      "source": "files/core-04-213860718-04.png",
+      "role": "image",
+      "bytes": 36332,
+      "sha256": "83d933f3ebfe831e56c7f4067d84894f3495dd6380825b8ca3195847cbcbaf69"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-05.pdf",
+      "source": "files/core-04-213860718-05.pdf",
+      "role": "attachment",
+      "bytes": 74493,
+      "sha256": "03207e8b3c173561c924c4365aa6f9109c47209fc174f55bc34c8e5c26dc33f0"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-05.png",
+      "source": "files/core-04-213860718-05.png",
+      "role": "image",
+      "bytes": 42186,
+      "sha256": "98bd16867a02dc3de9ca316ca91d06be7d658e7cb023e0bdc09123164bb1a346"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-06.png",
+      "source": "files/core-04-213860718-06.png",
+      "role": "image",
+      "bytes": 47446,
+      "sha256": "f0156c1a17915f46697b544d07ae4e04d736ecc8a48001ee08d31e8b33b86e25"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-06.xlsx",
+      "source": "files/core-04-213860718-06.xlsx",
+      "role": "attachment",
+      "bytes": 10962,
+      "sha256": "9029b611af88b93fbd41c87e0389c5e2606bad43f81a581eddcea56aca79c183"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-07.docx",
+      "source": "files/core-04-213860718-07.docx",
+      "role": "attachment",
+      "bytes": 35483,
+      "sha256": "0ab57481ac37da001e39e5797c72f9e05a2a02e89d056406e867b1ad87174f3a"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-07.png",
+      "source": "files/core-04-213860718-07.png",
+      "role": "image",
+      "bytes": 28350,
+      "sha256": "837856f1978710d3a293b3eac795df0ada17f518dbfe682fed40a78fbc0707e6"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-08.pdf",
+      "source": "files/core-04-213860718-08.pdf",
+      "role": "attachment",
+      "bytes": 2242256,
+      "sha256": "36379f4ce42fd63b92bf988b4a930ce9c79e73057fdc26fbd4d6a16db2e2e500"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-09.png",
+      "source": "files/core-04-213860718-09.png",
+      "role": "image",
+      "bytes": 40223,
+      "sha256": "6319d8d80b87638fbd155d816ee5f2562fa29f7307c5b5cba9b5a8c7f7900522"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860718-11.png",
+      "source": "files/core-04-213860718-11.png",
+      "role": "image",
+      "bytes": 42304,
+      "sha256": "f3ab7b7019d4669437cc187cfc983cf7b2926fa48861967039e3c38d1bb6ddc9"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-01.pdf",
+      "source": "files/core-04-213860719-01.pdf",
+      "role": "attachment",
+      "bytes": 251390,
+      "sha256": "b771f0d942021bde18e059105fb97fa4f1fbb5869c0709306572068d71743709"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-02.pdf",
+      "source": "files/core-04-213860719-02.pdf",
+      "role": "attachment",
+      "bytes": 65168,
+      "sha256": "897b0d14358485041a4e783a1a1c9e64308d30dcfa886a5ca1c90d99a2832dbb"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-02.png",
+      "source": "files/core-04-213860719-02.png",
+      "role": "image",
+      "bytes": 47035,
+      "sha256": "68d4864ede1000b60547c2f9623f9d0623d88c8123551fc16e58f486a6b0ac5e"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-03.pdf",
+      "source": "files/core-04-213860719-03.pdf",
+      "role": "attachment",
+      "bytes": 81946,
+      "sha256": "efbf2e3ad5f821226c63230d396e74bef55c1f2d222ca2538e9431ee187202a8"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-03.png",
+      "source": "files/core-04-213860719-03.png",
+      "role": "image",
+      "bytes": 412795,
+      "sha256": "5f02a3855bb167fdd4ef678d6cebc03890c16ea62b8eaa5ccb2c15b7fe0901d4"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-04.pdf",
+      "source": "files/core-04-213860719-04.pdf",
+      "role": "attachment",
+      "bytes": 77582,
+      "sha256": "1d61f9409a2ccf3d9b1cadff39f06ea15852a2ae229ee00ef5aa959d50e2ab4c"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-04.png",
+      "source": "files/core-04-213860719-04.png",
+      "role": "image",
+      "bytes": 37297,
+      "sha256": "91c634f39e034bbb1dda7d3f468c7d39fb2e8eda5f02c15cad8381a483953439"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-05.png",
+      "source": "files/core-04-213860719-05.png",
+      "role": "image",
+      "bytes": 50786,
+      "sha256": "3635f610e587a53ca39bef6d4a04f324dab4977cebc68cd9d15aff36c699d5fb"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-05.xlsx",
+      "source": "files/core-04-213860719-05.xlsx",
+      "role": "attachment",
+      "bytes": 15705,
+      "sha256": "c37a778af3f391e25c4046ad54372a1412cbea92dd73769e281a13ae244d8aee"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-06.docx",
+      "source": "files/core-04-213860719-06.docx",
+      "role": "attachment",
+      "bytes": 17036,
+      "sha256": "9e275393a6b4be693d84c1a0f509f6e67af34042cd55c8281cc7931aec134a86"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-06.png",
+      "source": "files/core-04-213860719-06.png",
+      "role": "image",
+      "bytes": 31541,
+      "sha256": "3bf86fd39622ef083c5bdc81db09c4f61e4636db237d846e8572a33152c1d3fb"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-07.pdf",
+      "source": "files/core-04-213860719-07.pdf",
+      "role": "attachment",
+      "bytes": 2039055,
+      "sha256": "a37635c2de11b749812862cee6e5cf2dc6efd78fa44add55a675eeae360ac7d9"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-08.png",
+      "source": "files/core-04-213860719-08.png",
+      "role": "image",
+      "bytes": 22235,
+      "sha256": "253ad3d58e63e4f03390e75c5d37e1f43fd3fc0fbb2ede27c27532e1809ace95"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860719-10.png",
+      "source": "files/core-04-213860719-10.png",
+      "role": "image",
+      "bytes": 48469,
+      "sha256": "edd6701a1af0810e709afd5ff1566166a8025514c1fc09a2580088488c2fc80e"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-01.pdf",
+      "source": "files/core-04-213860739-01.pdf",
+      "role": "attachment",
+      "bytes": 62263,
+      "sha256": "f9cc2fd030d6189cbb384375a5e568fa2c5cfd2cc231bb7635d03cf60c4771ab"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-02.pdf",
+      "source": "files/core-04-213860739-02.pdf",
+      "role": "attachment",
+      "bytes": 2657184,
+      "sha256": "968cb1cbf7817ce8c20063ef6ed1b2b0a9cbac8a9e21fa4999ca7c8540a0106e"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-02.png",
+      "source": "files/core-04-213860739-02.png",
+      "role": "image",
+      "bytes": 90912,
+      "sha256": "aef01cba2b776760c7dbdbfaf695721c483ec5c1f373a256a57251b2d04aaf70"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-03.pdf",
+      "source": "files/core-04-213860739-03.pdf",
+      "role": "attachment",
+      "bytes": 309500,
+      "sha256": "29d8f903ba52907ef23c584012f1fb244be8fd29cbdb08aaf1a16312ee7d7753"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-03.png",
+      "source": "files/core-04-213860739-03.png",
+      "role": "image",
+      "bytes": 32140,
+      "sha256": "7bfd28ed3b8b364f8e0ebc6a1d13f86f348f3e1417b0ed2017d2140d4be97cb3"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-04.png",
+      "source": "files/core-04-213860739-04.png",
+      "role": "image",
+      "bytes": 22127,
+      "sha256": "f5ac35dcc0968c54a147277b71d6b2a994c0ee5c5e32e09c9c1261e2c2ea12e9"
+    },
+    {
+      "path": "assets/finstrategy-core-04-213860739-07.png",
+      "source": "files/core-04-213860739-07.png",
+      "role": "image",
+      "bytes": 43577,
+      "sha256": "aae5700604bc9e1b000baf6f947a6dad23172a3b9d7983a9827983bf56b3783b"
+    },
+    {
+      "path": "assets/finstrategy-core-04-risk-property-damage.png",
+      "source": "files/core-04-risk-property-damage.png",
+      "role": "image",
+      "bytes": 157186,
+      "sha256": "d53efe03e487b581531d26f6448d046a786a2053c02817962145344f2391a46f"
+    },
+    {
+      "path": "assets/finstrategy-core-05-0a20b39dd0f2e494c22dd34eb6e66308.png",
+      "source": "files/core-05-0a20b39dd0f2e494c22dd34eb6e66308.png",
+      "role": "image",
+      "bytes": 30177,
+      "sha256": "1597ae376498b3481ed31feca484d46453cf423091bbe1b63edbf35342fc6585"
+    },
+    {
+      "path": "assets/finstrategy-core-05-130b2c19ba57d53d06589e600192d615.png",
+      "source": "files/core-05-130b2c19ba57d53d06589e600192d615.png",
+      "role": "image",
+      "bytes": 36229,
+      "sha256": "1e3a338f47737b7eedd526c75b0332e627ceadce370a5f88929dd34ed13f4f5f"
+    },
+    {
+      "path": "assets/finstrategy-core-05-17822e53806231ca03f66d55f85affa0.xlsx",
+      "source": "files/core-05-17822e53806231ca03f66d55f85affa0.xlsx",
+      "role": "attachment",
+      "bytes": 18813,
+      "sha256": "d1d1213ff43d2297fd5a78fcb29ba0b5ad750f90946dc993dd2688025a2e5197"
+    },
+    {
+      "path": "assets/finstrategy-core-05-19486f70af03ee90682604d7e31d0a14.png",
+      "source": "files/core-05-19486f70af03ee90682604d7e31d0a14.png",
+      "role": "image",
+      "bytes": 28724,
+      "sha256": "8c9ddbb83f1b339b3f669df07abbc3bfad2443730b047c75c6bf7b7fd88a2a64"
+    },
+    {
+      "path": "assets/finstrategy-core-05-29246601655651e53db56673fc0a594c.png",
+      "source": "files/core-05-29246601655651e53db56673fc0a594c.png",
+      "role": "image",
+      "bytes": 25077,
+      "sha256": "4f0dd322fe76d06ac93cdc0ed1ddb8b47939aec5b20800c475165b18bcd123f7"
+    },
+    {
+      "path": "assets/finstrategy-core-05-30665158f1511d6184571f8d4b503af7.pdf",
+      "source": "files/core-05-30665158f1511d6184571f8d4b503af7.pdf",
+      "role": "attachment",
+      "bytes": 92820,
+      "sha256": "827c8b58456eb8c4a4870a3ec93969c3f414614b4f715bce1e0ad39efc2985c0"
+    },
+    {
+      "path": "assets/finstrategy-core-05-405b4471506ad2e02c6ec157103c4f75.png",
+      "source": "files/core-05-405b4471506ad2e02c6ec157103c4f75.png",
+      "role": "image",
+      "bytes": 21523,
+      "sha256": "708a585df9f39d3e26283e63f90dd9620ad95a8c01f589becc23a7b5888fdc2f"
+    },
+    {
+      "path": "assets/finstrategy-core-05-41bcd27d097012ccfaa506fa9eb7a5b8.png",
+      "source": "files/core-05-41bcd27d097012ccfaa506fa9eb7a5b8.png",
+      "role": "image",
+      "bytes": 26445,
+      "sha256": "943f732b384afe7d173cad881ccf9faf5b557c4d94c2c104199f77b65c1ff74a"
+    },
+    {
+      "path": "assets/finstrategy-core-05-489df0df2eb217da6a382e3425d793db.pdf",
+      "source": "files/core-05-489df0df2eb217da6a382e3425d793db.pdf",
+      "role": "attachment",
+      "bytes": 341726,
+      "sha256": "71b4995ad61cde1217d7651d6d3c11cea98b7a8c01013c63fef15e7184c6babf"
+    },
+    {
+      "path": "assets/finstrategy-core-05-562f5eccb5e20b5708d3723afc6d6850.pdf",
+      "source": "files/core-05-562f5eccb5e20b5708d3723afc6d6850.pdf",
+      "role": "attachment",
+      "bytes": 77231,
+      "sha256": "1f8fd79e92cef4c3ee070ab156dc0b189434abb2f7a63fc13c1089356a7ebc9c"
+    },
+    {
+      "path": "assets/finstrategy-core-05-5662f1f41cd7ed031309dcfe152bbde3.docx",
+      "source": "files/core-05-5662f1f41cd7ed031309dcfe152bbde3.docx",
+      "role": "attachment",
+      "bytes": 13982,
+      "sha256": "9ea1503b68e7c0db26a903ec5ae812057b5040deb299490aab647ceda5d6b010"
+    },
+    {
+      "path": "assets/finstrategy-core-05-5dab5d201e2ff2591f2ce16b21a289fb.png",
+      "source": "files/core-05-5dab5d201e2ff2591f2ce16b21a289fb.png",
+      "role": "image",
+      "bytes": 33545,
+      "sha256": "8f6bf8472b1b1e1d54aea786464e6df9f3b729acd75c55ed190628a4cbeec0a5"
+    },
+    {
+      "path": "assets/finstrategy-core-05-842a4ff17fc8a55578b43e25dafdab44.pdf",
+      "source": "files/core-05-842a4ff17fc8a55578b43e25dafdab44.pdf",
+      "role": "attachment",
+      "bytes": 237765,
+      "sha256": "e10448190511cb79fbd82104911f22e1ae22eb857762e6df2f149828f7a3d35e"
+    },
+    {
+      "path": "assets/finstrategy-core-05-880c9de3e87bcc0f2b3afbfeb98cf778.png",
+      "source": "files/core-05-880c9de3e87bcc0f2b3afbfeb98cf778.png",
+      "role": "image",
+      "bytes": 310356,
+      "sha256": "33589cd13cd96534026c7416e28e824a0356e914b07876118e37ae4b14e8c4b4"
+    },
+    {
+      "path": "assets/finstrategy-core-05-8d383f53355fc8da116a752a70df2f4c.png",
+      "source": "files/core-05-8d383f53355fc8da116a752a70df2f4c.png",
+      "role": "image",
+      "bytes": 50827,
+      "sha256": "fdb7ad1fbdfb1dfe5e099fdf3dbf65518f529cb2837a949b3094db1f0cc3a59b"
+    },
+    {
+      "path": "assets/finstrategy-core-05-8eb44b772be7385528cf43a82e9c3195.pdf",
+      "source": "files/core-05-8eb44b772be7385528cf43a82e9c3195.pdf",
+      "role": "attachment",
+      "bytes": 287444,
+      "sha256": "67ec21fe7357d60dc63e216ee3bd700a26adcd73f5e6f32148812d10f844ac65"
+    },
+    {
+      "path": "assets/finstrategy-core-05-962b790ec4423b4a1b4c9a83c494483a.png",
+      "source": "files/core-05-962b790ec4423b4a1b4c9a83c494483a.png",
+      "role": "image",
+      "bytes": 11626,
+      "sha256": "28363ee5199b0d049589c1f02cd53e50a6cfa86503748f109f7a92e3b7a6baed"
+    },
+    {
+      "path": "assets/finstrategy-core-05-9b3a97148ebcfcea4622e1e98393d13b.png",
+      "source": "files/core-05-9b3a97148ebcfcea4622e1e98393d13b.png",
+      "role": "image",
+      "bytes": 26613,
+      "sha256": "c9cadfb74eae7f55ddfe19b360597a4c31ae6c914dc4de389655b1e916ce2e8b"
+    },
+    {
+      "path": "assets/finstrategy-core-05-a345f38fb1a38ee108fb34d277d6d771.pdf",
+      "source": "files/core-05-a345f38fb1a38ee108fb34d277d6d771.pdf",
+      "role": "attachment",
+      "bytes": 1673561,
+      "sha256": "0deaf8fe2a0690f10ce16f45abd56d3e2c20d8c64f85b4b8ae40bf066515b9ec"
+    },
+    {
+      "path": "assets/finstrategy-core-05-a85de14fbaa457284c8245f3fd259955.png",
+      "source": "files/core-05-a85de14fbaa457284c8245f3fd259955.png",
+      "role": "image",
+      "bytes": 38934,
+      "sha256": "91b7081d38c34e040ccc60a57ca0c0f7c68735dfd585c64c0187677a9ba5e60d"
+    },
+    {
+      "path": "assets/finstrategy-core-05-asset-risk-chart.png",
+      "source": "files/core-05-asset-risk-chart.png",
+      "role": "image",
+      "bytes": 82751,
+      "sha256": "b32039aba7c17b004cac605f4d81dd4d5b3bd7e2705ed2b9f1dcc675c2594d51"
+    },
+    {
+      "path": "assets/finstrategy-core-05-b082061befba611ef126ae87f07ecd21.png",
+      "source": "files/core-05-b082061befba611ef126ae87f07ecd21.png",
+      "role": "image",
+      "bytes": 26097,
+      "sha256": "4b8ca2d30f00e14f0b8f573da9db4d1be9a3d83bee2c99e5a074caf3b8b0875f"
+    },
+    {
+      "path": "assets/finstrategy-core-05-b17aa68ac01eac67ec399d3a66813713.png",
+      "source": "files/core-05-b17aa68ac01eac67ec399d3a66813713.png",
+      "role": "image",
+      "bytes": 33531,
+      "sha256": "9a6e62138c584716d5ab61bb320b6d4a63189f1f4341604f4f4df778d1d4a604"
+    },
+    {
+      "path": "assets/finstrategy-core-05-bdc5fcc55021301e7900ae73c7716e62.xlsx",
+      "source": "files/core-05-bdc5fcc55021301e7900ae73c7716e62.xlsx",
+      "role": "attachment",
+      "bytes": 17211,
+      "sha256": "eb493e1605f0e633b96edc05d69b66d0075e4236b9896530f06702860bd81952"
+    },
+    {
+      "path": "assets/finstrategy-core-05-c3d924a1f5d7a67d09becc86854edc98.pdf",
+      "source": "files/core-05-c3d924a1f5d7a67d09becc86854edc98.pdf",
+      "role": "attachment",
+      "bytes": 2498646,
+      "sha256": "bac5dcefae947d79ea1627e0454f4b1fe59987c889bbaa7b4efd20f5fa436c1e"
+    },
+    {
+      "path": "assets/finstrategy-core-05-c613d17fae46270f19e408ad428a7f0c.pdf",
+      "source": "files/core-05-c613d17fae46270f19e408ad428a7f0c.pdf",
+      "role": "attachment",
+      "bytes": 89441,
+      "sha256": "099743b9b34132c7a3fecc0028449fa1aaa7b095025ea3535ea5866ecd782284"
+    },
+    {
+      "path": "assets/finstrategy-core-05-c6bfc5156f765b33bc2d810a5a0ebee8.pdf",
+      "source": "files/core-05-c6bfc5156f765b33bc2d810a5a0ebee8.pdf",
+      "role": "attachment",
+      "bytes": 284129,
+      "sha256": "84feb0c9e44ef55ca1a818f5375ec544c732f7098ae5ffcace3f2ee2cb2cf1a1"
+    },
+    {
+      "path": "assets/finstrategy-core-05-ce1765241b3194fab5317bed33b9c738.pdf",
+      "source": "files/core-05-ce1765241b3194fab5317bed33b9c738.pdf",
+      "role": "attachment",
+      "bytes": 189893,
+      "sha256": "f4f32c0ab74d61d02751160c1c41d9fdd841d9239b47e672ece00ec2dcc479b2"
+    },
+    {
+      "path": "assets/finstrategy-core-05-d4ef3dae047cffaa6dd7ac8965aa4512.png",
+      "source": "files/core-05-d4ef3dae047cffaa6dd7ac8965aa4512.png",
+      "role": "image",
+      "bytes": 44679,
+      "sha256": "ec5f106c60b5001629e5cd53b058676a1b7bdedefec8d1fcc54b931cfe47d469"
+    },
+    {
+      "path": "assets/finstrategy-core-05-d816bc65aa93fcc972e892ecfdd82f48.docx",
+      "source": "files/core-05-d816bc65aa93fcc972e892ecfdd82f48.docx",
+      "role": "attachment",
+      "bytes": 17440,
+      "sha256": "1c6e743ff7fe3a70c8fab21e21681bde920ac30f11034bbfb1f4fae5687ea291"
+    },
+    {
+      "path": "assets/finstrategy-core-05-df8b5c14f71ccc1bd8d5f9f687f094c3.docx",
+      "source": "files/core-05-df8b5c14f71ccc1bd8d5f9f687f094c3.docx",
+      "role": "attachment",
+      "bytes": 16208,
+      "sha256": "9024fd96e3207f36d798ea4dada63d0cf5936688729df23748b9a097bc6666be"
+    },
+    {
+      "path": "assets/finstrategy-core-05-e4eb7fdabd94394bfe6fc0defdfa8a37.pdf",
+      "source": "files/core-05-e4eb7fdabd94394bfe6fc0defdfa8a37.pdf",
+      "role": "attachment",
+      "bytes": 270123,
+      "sha256": "4ba1c0d8029e78e9e838adee5b851f13e97e821425cbbb0f024ef4aeaa86008a"
+    },
+    {
+      "path": "assets/finstrategy-core-05-e534bee08940b1d1dd2111d7c46febca.docx",
+      "source": "files/core-05-e534bee08940b1d1dd2111d7c46febca.docx",
+      "role": "attachment",
+      "bytes": 59999,
+      "sha256": "c1c77b298c9748765eb773f229a4c015043a415a7e132564fa86b195aef9a0fe"
+    },
+    {
+      "path": "assets/finstrategy-core-05-efd6774edefdf731817daf6d40a4f48e.png",
+      "source": "files/core-05-efd6774edefdf731817daf6d40a4f48e.png",
+      "role": "image",
+      "bytes": 18787,
+      "sha256": "e6b78f15148c9968ebc94936693fdab86d6540ba71a02a6e37f70e860844e905"
+    },
+    {
+      "path": "assets/finstrategy-core-05-f310a6e32d55bdd7cc2f16712a17c5b2.pdf",
+      "source": "files/core-05-f310a6e32d55bdd7cc2f16712a17c5b2.pdf",
+      "role": "attachment",
+      "bytes": 161580,
+      "sha256": "2beba5784c07fa72fcd5d456757921e45ff973f6eeb0afb044fdd16e76bc0a92"
+    },
+    {
+      "path": "assets/finstrategy-core-05-f33afdd20a1cc0137f3f43ee234884cc.png",
+      "source": "files/core-05-f33afdd20a1cc0137f3f43ee234884cc.png",
+      "role": "image",
+      "bytes": 200518,
+      "sha256": "e8b9f720d0a5833463a4a053da8bf977fce4cd21f20fe5e23302b9d22c1ba914"
+    },
+    {
+      "path": "assets/finstrategy-core-05-ff365dcdd40bdb1ee08964923f9e592a.png",
+      "source": "files/core-05-ff365dcdd40bdb1ee08964923f9e592a.png",
+      "role": "image",
+      "bytes": 24505,
+      "sha256": "a15d6f3ea51b514d7db48ae98f92c97a0810563b1285e22b22cf7899c6e2757b"
+    },
+    {
       "path": "assets/finstrategy-core-06-change-energy.png",
       "source": "files/core-06-change-energy.png",
       "role": "image",
       "bytes": 20858,
       "sha256": "ed8ff2b20d850e4d216cc98d701cbd47862612d57f1b91f609ae4cba0b3f9ea3"
+    },
+    {
+      "path": "assets/finstrategy-core-06-change-goals.png",
+      "source": "files/core-06-change-goals.png",
+      "role": "image",
+      "bytes": 282257,
+      "sha256": "ef6dff8170fe1f646b5cf81e805383ebc5703ea3d284cccb3375f814f17a88bc"
+    },
+    {
+      "path": "assets/finstrategy-core-06-cognitive-biases.pdf",
+      "source": "files/core-06-cognitive-biases.pdf",
+      "role": "attachment",
+      "bytes": 95566,
+      "sha256": "4cc73c0da346161cd6127781aa55c73d013068f24fc44238ae084e4598e4c674"
+    },
+    {
+      "path": "assets/finstrategy-core-06-cognitive-biases.png",
+      "source": "files/core-06-cognitive-biases.png",
+      "role": "image",
+      "bytes": 18667,
+      "sha256": "3ab062c7bad84c92f22bec8cb1c2275b74eca9ea5e8a29c1dd285e58be7e95af"
+    },
+    {
+      "path": "assets/finstrategy-core-06-homework-template.docx",
+      "source": "files/core-06-homework-template.docx",
+      "role": "attachment",
+      "bytes": 33875,
+      "sha256": "403c721e305842ded4b4848c147bca89dd712d3ce68e52e439d2b962a462a1a3"
     },
     {
       "path": "assets/finstrategy-core-06-homework-template.png",
@@ -832,6 +1510,27 @@
       "sha256": "9a1149d3aed4affab4c3c3ee3202f93e61c03bde5954591fa8912cf584c2f822"
     },
     {
+      "path": "assets/finstrategy-core-06-limiting-beliefs.pdf",
+      "source": "files/core-06-limiting-beliefs.pdf",
+      "role": "attachment",
+      "bytes": 792992,
+      "sha256": "8a8683cacc99f6cbd61cde6763a34bcbff67c180bf19972672a3542ac72db16e"
+    },
+    {
+      "path": "assets/finstrategy-core-06-limiting-beliefs.png",
+      "source": "files/core-06-limiting-beliefs.png",
+      "role": "image",
+      "bytes": 26185,
+      "sha256": "42a87c9ed2a4d4c4435f3bb7fa261c653e9e4ab50c01c92976b0aea7bf44ab58"
+    },
+    {
+      "path": "assets/finstrategy-core-06-metaphor.png",
+      "source": "files/core-06-metaphor.png",
+      "role": "image",
+      "bytes": 17501,
+      "sha256": "dee948b1874fefc4e9c5e830ff118f2ed18efe869de795b0af975da1427bc5bb"
+    },
+    {
       "path": "assets/finstrategy-core-06-money-mark.png",
       "source": "files/core-06-money-mark.png",
       "role": "image",
@@ -839,11 +1538,802 @@
       "sha256": "4f9af57723c96e74db858fa2f3290e7e76cbbe1605596f651b6743d79ed358e2"
     },
     {
+      "path": "assets/finstrategy-core-06-money-metaphor.pdf",
+      "source": "files/core-06-money-metaphor.pdf",
+      "role": "attachment",
+      "bytes": 79638,
+      "sha256": "71c11aba98bc271946fde754488b9d9504b8926dc2a02abd83ed0eb29e059fe0"
+    },
+    {
+      "path": "assets/finstrategy-core-06-psychology-presentation.pdf",
+      "source": "files/core-06-psychology-presentation.pdf",
+      "role": "attachment",
+      "bytes": 488384,
+      "sha256": "32eb529802923eb06905bc6d36f6a50fe961f7574b15d780d4002b467f2529cc"
+    },
+    {
+      "path": "assets/finstrategy-core-06-psychology-presentation.png",
+      "source": "files/core-06-psychology-presentation.png",
+      "role": "image",
+      "bytes": 26500,
+      "sha256": "f94e2a0463f7b6b617d6c9128ecd4227f27eab00457c6bcef9b8f9ccfc49d63e"
+    },
+    {
+      "path": "assets/finstrategy-core-07-0687f432069394572dfc.pdf",
+      "source": "files/core-07-0687f432069394572dfc.pdf",
+      "role": "attachment",
+      "bytes": 86414,
+      "sha256": "0687f432069394572dfce9b5f04914f4fc6df776c18886f4c6dbadc5226f349d"
+    },
+    {
+      "path": "assets/finstrategy-core-07-1832f141815c436f1a8a.png",
+      "source": "files/core-07-1832f141815c436f1a8a.png",
+      "role": "image",
+      "bytes": 21225,
+      "sha256": "1832f141815c436f1a8adb8dff81002457bb3a8a9331155d107d9dd1ea9ece3a"
+    },
+    {
+      "path": "assets/finstrategy-core-07-1cccadb7b89387ece368.pdf",
+      "source": "files/core-07-1cccadb7b89387ece368.pdf",
+      "role": "attachment",
+      "bytes": 104964,
+      "sha256": "1cccadb7b89387ece368fc3327bc4d42e04001fb79081d02eaddb2d248895fa2"
+    },
+    {
+      "path": "assets/finstrategy-core-07-2c4fef829695cdcaf2e4.pdf",
+      "source": "files/core-07-2c4fef829695cdcaf2e4.pdf",
+      "role": "attachment",
+      "bytes": 85942,
+      "sha256": "2c4fef829695cdcaf2e4ab29e489d40b4a543e07a42a19d4c90b7da249be29ce"
+    },
+    {
+      "path": "assets/finstrategy-core-07-317d784d47c3c32943a4.xlsx",
+      "source": "files/core-07-317d784d47c3c32943a4.xlsx",
+      "role": "attachment",
+      "bytes": 73736,
+      "sha256": "317d784d47c3c32943a434727425d7958e04f90b6399d76be513e109b3664ec0"
+    },
+    {
+      "path": "assets/finstrategy-core-07-3549f5d3add3872fa190.png",
+      "source": "files/core-07-3549f5d3add3872fa190.png",
+      "role": "image",
+      "bytes": 30266,
+      "sha256": "3549f5d3add3872fa190d0406fa214ec03484ed069150ec13332e4bc46fa0b94"
+    },
+    {
+      "path": "assets/finstrategy-core-07-405fe1387b4ff151763c.pdf",
+      "source": "files/core-07-405fe1387b4ff151763c.pdf",
+      "role": "attachment",
+      "bytes": 64192,
+      "sha256": "405fe1387b4ff151763c807afe9a523b09fa0a3e59272c1c7dcc72f5f7e657cd"
+    },
+    {
+      "path": "assets/finstrategy-core-07-535d7bf4f5da58a8ce04.png",
+      "source": "files/core-07-535d7bf4f5da58a8ce04.png",
+      "role": "image",
+      "bytes": 43445,
+      "sha256": "535d7bf4f5da58a8ce0462c12ace50949be36bfd820d3adcf143fd6c15866816"
+    },
+    {
+      "path": "assets/finstrategy-core-07-5d845faf1fd5214ae159.png",
+      "source": "files/core-07-5d845faf1fd5214ae159.png",
+      "role": "image",
+      "bytes": 280415,
+      "sha256": "5d845faf1fd5214ae159468b0b173e84e6c7670922ccc562ab8e07d762383e52"
+    },
+    {
+      "path": "assets/finstrategy-core-07-5dc570a0cf89b8c6ae80.png",
+      "source": "files/core-07-5dc570a0cf89b8c6ae80.png",
+      "role": "image",
+      "bytes": 34354,
+      "sha256": "5dc570a0cf89b8c6ae809d4121273a8e917d9bc6e8f4ff8610c910740d605dae"
+    },
+    {
+      "path": "assets/finstrategy-core-07-60ee520bc9d268f0d416.png",
+      "source": "files/core-07-60ee520bc9d268f0d416.png",
+      "role": "image",
+      "bytes": 34794,
+      "sha256": "60ee520bc9d268f0d416723d28c1fe06002cd8de5db4bbf89c33cc68f6fc40a3"
+    },
+    {
+      "path": "assets/finstrategy-core-07-6ece3be20d057022705f.png",
+      "source": "files/core-07-6ece3be20d057022705f.png",
+      "role": "image",
+      "bytes": 36540,
+      "sha256": "6ece3be20d057022705f157f02f5d9d99024dd8fba1106ae715dec806e7d17ce"
+    },
+    {
+      "path": "assets/finstrategy-core-07-84866de2de08fb6b247f.pdf",
+      "source": "files/core-07-84866de2de08fb6b247f.pdf",
+      "role": "attachment",
+      "bytes": 368996,
+      "sha256": "84866de2de08fb6b247f3241aaff75d024712fdb65f799641c7db4ab8a75e55b"
+    },
+    {
+      "path": "assets/finstrategy-core-07-87edec7ec8c27bc4a8c4.png",
+      "source": "files/core-07-87edec7ec8c27bc4a8c4.png",
+      "role": "image",
+      "bytes": 34415,
+      "sha256": "87edec7ec8c27bc4a8c44839c0cf8b3ab2cabf500f1b8ff63a570e0773e101fa"
+    },
+    {
+      "path": "assets/finstrategy-core-07-8c72f4045977abc8b5ff.pdf",
+      "source": "files/core-07-8c72f4045977abc8b5ff.pdf",
+      "role": "attachment",
+      "bytes": 281021,
+      "sha256": "8c72f4045977abc8b5ff1a72783da87c9da8cf9768e1063aa66ed4d08c7dac81"
+    },
+    {
+      "path": "assets/finstrategy-core-07-96732f70c766ce47eb69.png",
+      "source": "files/core-07-96732f70c766ce47eb69.png",
+      "role": "image",
+      "bytes": 24672,
+      "sha256": "96732f70c766ce47eb6922e15565b7205752a4bc27aa799bde8660e660058a04"
+    },
+    {
+      "path": "assets/finstrategy-core-07-96f1b3507da46e7b048b.png",
+      "source": "files/core-07-96f1b3507da46e7b048b.png",
+      "role": "image",
+      "bytes": 26206,
+      "sha256": "96f1b3507da46e7b048b412f403f225a7b02fdaad5452fe89cf55eaa470748a5"
+    },
+    {
+      "path": "assets/finstrategy-core-07-9b15a3d9e10238118981.xlsx",
+      "source": "files/core-07-9b15a3d9e10238118981.xlsx",
+      "role": "attachment",
+      "bytes": 111012,
+      "sha256": "9b15a3d9e10238118981390e729976229a4cbde094ff6850325bac95059e5b87"
+    },
+    {
+      "path": "assets/finstrategy-core-07-a378cbf26c1edebb0eaf.png",
+      "source": "files/core-07-a378cbf26c1edebb0eaf.png",
+      "role": "image",
+      "bytes": 33862,
+      "sha256": "a378cbf26c1edebb0eaf0817e731494a8d2591080f6c7c6e0be97dc6557ae492"
+    },
+    {
+      "path": "assets/finstrategy-core-07-a7f886ec083ec0993ebe.png",
+      "source": "files/core-07-a7f886ec083ec0993ebe.png",
+      "role": "image",
+      "bytes": 19438,
+      "sha256": "a7f886ec083ec0993ebeb45ae5563d53150c1b9cb495de8e6a63334d173f8094"
+    },
+    {
+      "path": "assets/finstrategy-core-07-a858005989e8b4332a40.png",
+      "source": "files/core-07-a858005989e8b4332a40.png",
+      "role": "image",
+      "bytes": 19783,
+      "sha256": "a858005989e8b4332a4005989f8dde787ed8c35ed3735e064ed0b0c65b2568f0"
+    },
+    {
+      "path": "assets/finstrategy-core-07-adff72919520529b24d8.png",
+      "source": "files/core-07-adff72919520529b24d8.png",
+      "role": "image",
+      "bytes": 19990,
+      "sha256": "adff72919520529b24d8379c2205777ddf75ac385146cd9f3094358c811cf6d9"
+    },
+    {
+      "path": "assets/finstrategy-core-07-bacf70dc2e397e5dd7a7.png",
+      "source": "files/core-07-bacf70dc2e397e5dd7a7.png",
+      "role": "image",
+      "bytes": 276832,
+      "sha256": "bacf70dc2e397e5dd7a73fe3d4ea9c71d50d7e0b00384752bdd0b2074a1ee3ee"
+    },
+    {
+      "path": "assets/finstrategy-core-07-bde449260a0c6ccbe430.png",
+      "source": "files/core-07-bde449260a0c6ccbe430.png",
+      "role": "image",
+      "bytes": 349118,
+      "sha256": "bde449260a0c6ccbe4309797fe43c0ca499c5e2a1b3e51c65413809e1789da77"
+    },
+    {
+      "path": "assets/finstrategy-core-07-bf0a85e740681ca0ba09.pdf",
+      "source": "files/core-07-bf0a85e740681ca0ba09.pdf",
+      "role": "attachment",
+      "bytes": 318769,
+      "sha256": "bf0a85e740681ca0ba098ab8652f1a2ad26eafe99e05c3ebbeaa27ac3231a72f"
+    },
+    {
+      "path": "assets/finstrategy-core-07-credit-holidays-2024.png",
+      "source": "files/core-07-credit-holidays-2024.png",
+      "role": "image",
+      "bytes": 647291,
+      "sha256": "b6ce01c85ad93969b63cf8715578d3ef6da48b6580f8946241c3ff3c14aa68db"
+    },
+    {
+      "path": "assets/finstrategy-core-07-d425112f624469c008cc.pdf",
+      "source": "files/core-07-d425112f624469c008cc.pdf",
+      "role": "attachment",
+      "bytes": 117987,
+      "sha256": "d425112f624469c008cc7caee5a0b73b0cf1b2388efb2b3dddbd8ecaf1904e31"
+    },
+    {
+      "path": "assets/finstrategy-core-07-d6450d8ba88838f4d4e7.png",
+      "source": "files/core-07-d6450d8ba88838f4d4e7.png",
+      "role": "image",
+      "bytes": 220684,
+      "sha256": "d6450d8ba88838f4d4e7023a4c46b598541b0290c6f632e70e34a3ce01beab6f"
+    },
+    {
+      "path": "assets/finstrategy-core-07-d8b68e5d0ce4036b07ef.pdf",
+      "source": "files/core-07-d8b68e5d0ce4036b07ef.pdf",
+      "role": "attachment",
+      "bytes": 203814,
+      "sha256": "d8b68e5d0ce4036b07ef8240c1608debe936fe68872aef07434f3dfbd3857668"
+    },
+    {
+      "path": "assets/finstrategy-core-07-ea9a18098191a69fdd75.pdf",
+      "source": "files/core-07-ea9a18098191a69fdd75.pdf",
+      "role": "attachment",
+      "bytes": 251810,
+      "sha256": "ea9a18098191a69fdd750bd8e62cda9560cda7df6084b3071b867616dbc9817d"
+    },
+    {
+      "path": "assets/finstrategy-core-07-f0f748ab45d7d2a88d43.png",
+      "source": "files/core-07-f0f748ab45d7d2a88d43.png",
+      "role": "image",
+      "bytes": 28615,
+      "sha256": "f0f748ab45d7d2a88d43a43fb8fc32603d35e5c0a0d4ce6dcdfb542e21587f44"
+    },
+    {
+      "path": "assets/finstrategy-core-07-f6e14ca842d3f638c708.pdf",
+      "source": "files/core-07-f6e14ca842d3f638c708.pdf",
+      "role": "attachment",
+      "bytes": 172861,
+      "sha256": "f6e14ca842d3f638c7082ddb557a3d9064e7b4016b0538b41c62c39f9e962d42"
+    },
+    {
+      "path": "assets/finstrategy-core-08-03f0d64fe118576fab16.pdf",
+      "source": "files/core-08-03f0d64fe118576fab16.pdf",
+      "role": "attachment",
+      "bytes": 111575,
+      "sha256": "03f0d64fe118576fab16b1ff6026bf78784395d5b36a56f133501e0833bd6448"
+    },
+    {
+      "path": "assets/finstrategy-core-08-04f46b77e7f0277cc696.pdf",
+      "source": "files/core-08-04f46b77e7f0277cc696.pdf",
+      "role": "attachment",
+      "bytes": 256466,
+      "sha256": "04f46b77e7f0277cc69635178ce78dd7f4c7a0b187a8239ddfbaf30ece2533c9"
+    },
+    {
+      "path": "assets/finstrategy-core-08-06a100a0eb867b3417d0.pdf",
+      "source": "files/core-08-06a100a0eb867b3417d0.pdf",
+      "role": "attachment",
+      "bytes": 99077,
+      "sha256": "06a100a0eb867b3417d0a94d0491771cdb89bf5cb49283a8ffaec6652c2e5152"
+    },
+    {
+      "path": "assets/finstrategy-core-08-08832de52ef68d0ce67d.png",
+      "source": "files/core-08-08832de52ef68d0ce67d.png",
+      "role": "image",
+      "bytes": 29867,
+      "sha256": "08832de52ef68d0ce67d1b1da0553812dab84a4767c503c942ac32e646385846"
+    },
+    {
+      "path": "assets/finstrategy-core-08-0c308494cbb83b909405.png",
+      "source": "files/core-08-0c308494cbb83b909405.png",
+      "role": "image",
+      "bytes": 44841,
+      "sha256": "0c308494cbb83b90940571a3fb8c0da772cbaf53c811ce64275c873d8e7a1034"
+    },
+    {
+      "path": "assets/finstrategy-core-08-1f9b02f39f7433f13c3b.pdf",
+      "source": "files/core-08-1f9b02f39f7433f13c3b.pdf",
+      "role": "attachment",
+      "bytes": 51084,
+      "sha256": "1f9b02f39f7433f13c3b75c1ba36145780157350f26d3783819a585ac92bc418"
+    },
+    {
+      "path": "assets/finstrategy-core-08-2560a8dc192443c17140.png",
+      "source": "files/core-08-2560a8dc192443c17140.png",
+      "role": "image",
+      "bytes": 421946,
+      "sha256": "2560a8dc192443c171404a5c2f0bdc758c37a24fdc9c11a6490e44b14ae92a32"
+    },
+    {
+      "path": "assets/finstrategy-core-08-26a92bf707ed3a7b2338.png",
+      "source": "files/core-08-26a92bf707ed3a7b2338.png",
+      "role": "image",
+      "bytes": 9548,
+      "sha256": "26a92bf707ed3a7b233898ab2f8417c22065326d749362ae41c4bb6f3070be45"
+    },
+    {
+      "path": "assets/finstrategy-core-08-2f72391070d660e21b8c.png",
+      "source": "files/core-08-2f72391070d660e21b8c.png",
+      "role": "image",
+      "bytes": 34798,
+      "sha256": "2f72391070d660e21b8cfc2edc9035329423f5f2698516f526bd7b071f71969d"
+    },
+    {
+      "path": "assets/finstrategy-core-08-36349355d272be81aa55.png",
+      "source": "files/core-08-36349355d272be81aa55.png",
+      "role": "image",
+      "bytes": 18686,
+      "sha256": "36349355d272be81aa55d7c1fd2ef96ba12e6f8e3943e110fcf5c741d56d28e2"
+    },
+    {
+      "path": "assets/finstrategy-core-08-375a729af52742efd165.png",
+      "source": "files/core-08-375a729af52742efd165.png",
+      "role": "image",
+      "bytes": 27465,
+      "sha256": "375a729af52742efd165e98b9e135b9495e11c33584148225ac06809553a83d3"
+    },
+    {
+      "path": "assets/finstrategy-core-08-3a8486a922e5be028e05.png",
+      "source": "files/core-08-3a8486a922e5be028e05.png",
+      "role": "image",
+      "bytes": 327880,
+      "sha256": "3a8486a922e5be028e05cf75b7b2a50f6068ea755b1b81552fc140ad65d95a03"
+    },
+    {
+      "path": "assets/finstrategy-core-08-3bc8fe9150a825becb91.png",
+      "source": "files/core-08-3bc8fe9150a825becb91.png",
+      "role": "image",
+      "bytes": 28360,
+      "sha256": "3bc8fe9150a825becb91cec6cc6360d1a38c7075382c2b2a0fc2d1e3ad76a842"
+    },
+    {
+      "path": "assets/finstrategy-core-08-425af7d33efc65160c40.pdf",
+      "source": "files/core-08-425af7d33efc65160c40.pdf",
+      "role": "attachment",
+      "bytes": 65452,
+      "sha256": "425af7d33efc65160c40c73210616079b7171d8957c34d833faeece6538eb45b"
+    },
+    {
+      "path": "assets/finstrategy-core-08-43d3f7af7532cec35898.png",
+      "source": "files/core-08-43d3f7af7532cec35898.png",
+      "role": "image",
+      "bytes": 40056,
+      "sha256": "43d3f7af7532cec35898f29fb6d2435f2f54fd50908f9223d549118026a886ac"
+    },
+    {
+      "path": "assets/finstrategy-core-08-4dad7d2176b44a1c2b64.pdf",
+      "source": "files/core-08-4dad7d2176b44a1c2b64.pdf",
+      "role": "attachment",
+      "bytes": 77360,
+      "sha256": "4dad7d2176b44a1c2b64b483ea6afd74a4f3869aa966b0c56e0088e197fcf66a"
+    },
+    {
+      "path": "assets/finstrategy-core-08-5e98e05067bf8aa8cfe3.pdf",
+      "source": "files/core-08-5e98e05067bf8aa8cfe3.pdf",
+      "role": "attachment",
+      "bytes": 509737,
+      "sha256": "5e98e05067bf8aa8cfe3dfcac479afc660f18aaea1f185ff47e443cf008a4139"
+    },
+    {
+      "path": "assets/finstrategy-core-08-60c761d85ba40c61c9de.pdf",
+      "source": "files/core-08-60c761d85ba40c61c9de.pdf",
+      "role": "attachment",
+      "bytes": 325156,
+      "sha256": "60c761d85ba40c61c9de606d6c5a74d10c032ad7b45e189e37dac4829f34e8c4"
+    },
+    {
+      "path": "assets/finstrategy-core-08-6acdac33ee6a92278120.pdf",
+      "source": "files/core-08-6acdac33ee6a92278120.pdf",
+      "role": "attachment",
+      "bytes": 205087,
+      "sha256": "6acdac33ee6a922781206acd8c12fe99e187db3c59c620472b42d23f5f485f69"
+    },
+    {
+      "path": "assets/finstrategy-core-08-7398eeeb6bc1ddd8b5b4.png",
+      "source": "files/core-08-7398eeeb6bc1ddd8b5b4.png",
+      "role": "image",
+      "bytes": 18330,
+      "sha256": "7398eeeb6bc1ddd8b5b49a79282c2b89ff69435539ebe770c6f389b1287f9281"
+    },
+    {
+      "path": "assets/finstrategy-core-08-73f63658e65752fe02c5.png",
+      "source": "files/core-08-73f63658e65752fe02c5.png",
+      "role": "image",
+      "bytes": 472964,
+      "sha256": "73f63658e65752fe02c5543d909998c66c274aa978bf0b340870d43901aac3d1"
+    },
+    {
+      "path": "assets/finstrategy-core-08-7f42b5b397b33e4b2931.png",
+      "source": "files/core-08-7f42b5b397b33e4b2931.png",
+      "role": "image",
+      "bytes": 33633,
+      "sha256": "7f42b5b397b33e4b2931cb7bea04370937a80bd5f06c79e9d35c36aed7b4ddf3"
+    },
+    {
+      "path": "assets/finstrategy-core-08-9429229267255096ef29.docx",
+      "source": "files/core-08-9429229267255096ef29.docx",
+      "role": "attachment",
+      "bytes": 28810,
+      "sha256": "9429229267255096ef29ca5cc81ecef7e8828810f7d3e728792d841e34ad3fdc"
+    },
+    {
+      "path": "assets/finstrategy-core-08-9bbddf6dfff24eef495f.pdf",
+      "source": "files/core-08-9bbddf6dfff24eef495f.pdf",
+      "role": "attachment",
+      "bytes": 1971284,
+      "sha256": "9bbddf6dfff24eef495f4012a355e122339f09bf4721def0c5619b12d60f26e2"
+    },
+    {
+      "path": "assets/finstrategy-core-08-a1f4178ee5181260f721.pdf",
+      "source": "files/core-08-a1f4178ee5181260f721.pdf",
+      "role": "attachment",
+      "bytes": 102930,
+      "sha256": "a1f4178ee5181260f721b8925bdb46dd318f79f4662d9d4d77c28efa4306a112"
+    },
+    {
+      "path": "assets/finstrategy-core-08-a6cdf116c836c1e4834a.png",
+      "source": "files/core-08-a6cdf116c836c1e4834a.png",
+      "role": "image",
+      "bytes": 34094,
+      "sha256": "a6cdf116c836c1e4834a21329fa475b3faf4f60c36cadc7caac7420dece26657"
+    },
+    {
+      "path": "assets/finstrategy-core-08-aa1842335f221a524a96.pdf",
+      "source": "files/core-08-aa1842335f221a524a96.pdf",
+      "role": "attachment",
+      "bytes": 275582,
+      "sha256": "aa1842335f221a524a969825d9fcb9fd5db2577257a31089715a39d476115695"
+    },
+    {
+      "path": "assets/finstrategy-core-08-b3128e50a59f0a95a322.png",
+      "source": "files/core-08-b3128e50a59f0a95a322.png",
+      "role": "image",
+      "bytes": 15664,
+      "sha256": "b3128e50a59f0a95a3221976e993994ef3a7a2cde4b7d5cc76403e017e9c037c"
+    },
+    {
+      "path": "assets/finstrategy-core-08-b71dd44b573bbc733688.docx",
+      "source": "files/core-08-b71dd44b573bbc733688.docx",
+      "role": "attachment",
+      "bytes": 102061,
+      "sha256": "b71dd44b573bbc7336889875a025c8eaad91dadb65a13a6cf3e2a77736048eaa"
+    },
+    {
+      "path": "assets/finstrategy-core-08-cbr-basic-standard-2021.pdf",
+      "source": "files/core-08-cbr-basic-standard-2021.pdf",
+      "role": "attachment",
+      "bytes": 681791,
+      "sha256": "04d4daeb75ab9ad2764f89191bb50c61d15133082bd6cc4f4b045adaae084353"
+    },
+    {
+      "path": "assets/finstrategy-core-08-eb18c8f0179c1c998e85.png",
+      "source": "files/core-08-eb18c8f0179c1c998e85.png",
+      "role": "image",
+      "bytes": 26243,
+      "sha256": "eb18c8f0179c1c998e85a5992d7c58ecf8c3634982d4343fd1ff0feb091d3b80"
+    },
+    {
+      "path": "assets/finstrategy-core-08-f688a9a7fe3a5ae38e5a.pdf",
+      "source": "files/core-08-f688a9a7fe3a5ae38e5a.pdf",
+      "role": "attachment",
+      "bytes": 304055,
+      "sha256": "f688a9a7fe3a5ae38e5aaba634a4bb2be16d424e638ec70ad4c94c8c1aebd797"
+    },
+    {
+      "path": "assets/finstrategy-core-09-0026e06ec6d1745ba56f.png",
+      "source": "files/core-09-0026e06ec6d1745ba56f.png",
+      "role": "image",
+      "bytes": 220576,
+      "sha256": "0026e06ec6d1745ba56fc5abe1d24d661ef3ed03308c5223a58e9236e028c218"
+    },
+    {
+      "path": "assets/finstrategy-core-09-16f30c68d6ef35c148c5.png",
+      "source": "files/core-09-16f30c68d6ef35c148c5.png",
+      "role": "image",
+      "bytes": 39327,
+      "sha256": "16f30c68d6ef35c148c52543c1fcebbe09d45a9924b8b3cd38cf8f3e42a0fd2b"
+    },
+    {
+      "path": "assets/finstrategy-core-09-17a87680bf510dd41330.pdf",
+      "source": "files/core-09-17a87680bf510dd41330.pdf",
+      "role": "attachment",
+      "bytes": 153635,
+      "sha256": "17a87680bf510dd41330f93ab1cc95269eb247984a167db58bd099a3bf825eb4"
+    },
+    {
+      "path": "assets/finstrategy-core-09-20c91948812f75f297a0.png",
+      "source": "files/core-09-20c91948812f75f297a0.png",
+      "role": "image",
+      "bytes": 35567,
+      "sha256": "20c91948812f75f297a033f45fa5da59e8dc75d62662b37be64091ccfbaaeee6"
+    },
+    {
+      "path": "assets/finstrategy-core-09-2f063c77907ef757b208.png",
+      "source": "files/core-09-2f063c77907ef757b208.png",
+      "role": "image",
+      "bytes": 30050,
+      "sha256": "2f063c77907ef757b208360ab014abe738773235932d6121f259fabc5f7ce0fd"
+    },
+    {
+      "path": "assets/finstrategy-core-09-2f57e17039c039a866c8.png",
+      "source": "files/core-09-2f57e17039c039a866c8.png",
+      "role": "image",
+      "bytes": 53912,
+      "sha256": "2f57e17039c039a866c8b864ce902cc777f49a0fc6ab47d7027af6ac882bf698"
+    },
+    {
+      "path": "assets/finstrategy-core-09-322468c5c6cc305cd060.png",
+      "source": "files/core-09-322468c5c6cc305cd060.png",
+      "role": "image",
+      "bytes": 30197,
+      "sha256": "322468c5c6cc305cd060cbac81c8d9931f99d30fcbbe1bfa219477661c5fc068"
+    },
+    {
+      "path": "assets/finstrategy-core-09-34bf1f55305cc303ffe8.pdf",
+      "source": "files/core-09-34bf1f55305cc303ffe8.pdf",
+      "role": "attachment",
+      "bytes": 53985,
+      "sha256": "34bf1f55305cc303ffe8a3818646f00419ca74e72fccde5f07327b100a15e76c"
+    },
+    {
+      "path": "assets/finstrategy-core-09-3678ca7409110cdf8377.pdf",
+      "source": "files/core-09-3678ca7409110cdf8377.pdf",
+      "role": "attachment",
+      "bytes": 278431,
+      "sha256": "3678ca7409110cdf8377a7f6f4709c8429c46699c10bac6c79b4c50e31a48c61"
+    },
+    {
+      "path": "assets/finstrategy-core-09-3a14c01ef2b4c56c31fe.png",
+      "source": "files/core-09-3a14c01ef2b4c56c31fe.png",
+      "role": "image",
+      "bytes": 29994,
+      "sha256": "3a14c01ef2b4c56c31feba5464765a2c7028b91829634cca41723de724f100d3"
+    },
+    {
+      "path": "assets/finstrategy-core-09-3adfec757add74593a7c.png",
+      "source": "files/core-09-3adfec757add74593a7c.png",
+      "role": "image",
+      "bytes": 32925,
+      "sha256": "3adfec757add74593a7cb59740ac7b72d71c55963d191a418618fb8ce90dad93"
+    },
+    {
+      "path": "assets/finstrategy-core-09-3c4c42ec0cbfb6374815.png",
+      "source": "files/core-09-3c4c42ec0cbfb6374815.png",
+      "role": "image",
+      "bytes": 19975,
+      "sha256": "3c4c42ec0cbfb63748156d5bb68a9c2a53cef315238fedd3ae2516b119cf92e1"
+    },
+    {
+      "path": "assets/finstrategy-core-09-3dbac2397fb0dc72b57a.xlsx",
+      "source": "files/core-09-3dbac2397fb0dc72b57a.xlsx",
+      "role": "attachment",
+      "bytes": 59412,
+      "sha256": "3dbac2397fb0dc72b57aac3a8e025e6fb43300e31b4562d83209fe5617a548da"
+    },
+    {
+      "path": "assets/finstrategy-core-09-3e27c937b1514ca30c00.png",
+      "source": "files/core-09-3e27c937b1514ca30c00.png",
+      "role": "image",
+      "bytes": 333827,
+      "sha256": "3e27c937b1514ca30c00d6e1f4053c9de9be9c694019bf4b263d3ebd6a1a0298"
+    },
+    {
+      "path": "assets/finstrategy-core-09-43c399c046239780c5f8.png",
+      "source": "files/core-09-43c399c046239780c5f8.png",
+      "role": "image",
+      "bytes": 196663,
+      "sha256": "43c399c046239780c5f8ace35a925253f5ecb23b977bb5aa8ff1e4f4b221b0bf"
+    },
+    {
+      "path": "assets/finstrategy-core-09-5653c1b1991753ca6d8f.png",
+      "source": "files/core-09-5653c1b1991753ca6d8f.png",
+      "role": "image",
+      "bytes": 21886,
+      "sha256": "5653c1b1991753ca6d8fd5aaab9e6e8ac9963a8221ef4ec32dd719c0636ae191"
+    },
+    {
+      "path": "assets/finstrategy-core-09-5ae957fa906f79ff20b7.pdf",
+      "source": "files/core-09-5ae957fa906f79ff20b7.pdf",
+      "role": "attachment",
+      "bytes": 93622,
+      "sha256": "5ae957fa906f79ff20b760d7c972aba894588745efbb4c59aed8637f2f845cad"
+    },
+    {
+      "path": "assets/finstrategy-core-09-5d7055f588bf437fb960.png",
+      "source": "files/core-09-5d7055f588bf437fb960.png",
+      "role": "image",
+      "bytes": 85087,
+      "sha256": "5d7055f588bf437fb9606ac0647444c88dadbf0f8c7349296849451376e7745c"
+    },
+    {
+      "path": "assets/finstrategy-core-09-6e9b364c54bd15c6dc35.docx",
+      "source": "files/core-09-6e9b364c54bd15c6dc35.docx",
+      "role": "attachment",
+      "bytes": 15188,
+      "sha256": "6e9b364c54bd15c6dc351624beb1026b90b4bf29fc95c8365729edbcf28048dd"
+    },
+    {
+      "path": "assets/finstrategy-core-09-74249b974d980323fdd4.pdf",
+      "source": "files/core-09-74249b974d980323fdd4.pdf",
+      "role": "attachment",
+      "bytes": 60726,
+      "sha256": "74249b974d980323fdd44112a42cda0ed8df3986e7830fbe645589dd16d0b291"
+    },
+    {
+      "path": "assets/finstrategy-core-09-786a16f5bacb1191ea31.png",
+      "source": "files/core-09-786a16f5bacb1191ea31.png",
+      "role": "image",
+      "bytes": 56717,
+      "sha256": "786a16f5bacb1191ea316f2138366fd917f0db5fe49fbf9cadd337c3c1ee4f56"
+    },
+    {
+      "path": "assets/finstrategy-core-09-813d8cfb2550619b7061.pdf",
+      "source": "files/core-09-813d8cfb2550619b7061.pdf",
+      "role": "attachment",
+      "bytes": 582125,
+      "sha256": "813d8cfb2550619b7061c15c9bfe89aeb05c41236b3bbe03b7b7cb7d5408b41b"
+    },
+    {
+      "path": "assets/finstrategy-core-09-82409dbf4f3971e7386c.pdf",
+      "source": "files/core-09-82409dbf4f3971e7386c.pdf",
+      "role": "attachment",
+      "bytes": 276288,
+      "sha256": "82409dbf4f3971e7386c467795df4db0b321888ee3f87e70146d97b61b4e215b"
+    },
+    {
+      "path": "assets/finstrategy-core-09-88b64434eefad5b0f9be.png",
+      "source": "files/core-09-88b64434eefad5b0f9be.png",
+      "role": "image",
+      "bytes": 38193,
+      "sha256": "88b64434eefad5b0f9be790ccb00bfcb3c686b6a58194ef54789a265910a30f3"
+    },
+    {
+      "path": "assets/finstrategy-core-09-923e5fab03d3a6f5a1d6.png",
+      "source": "files/core-09-923e5fab03d3a6f5a1d6.png",
+      "role": "image",
+      "bytes": 27811,
+      "sha256": "923e5fab03d3a6f5a1d63e45d546dace72b2cbc5e4ac498659900742dea35964"
+    },
+    {
+      "path": "assets/finstrategy-core-09-946fe026372ded7eeb94.png",
+      "source": "files/core-09-946fe026372ded7eeb94.png",
+      "role": "image",
+      "bytes": 31090,
+      "sha256": "946fe026372ded7eeb94406160e63684e7031d2f93b661890016bcb298697029"
+    },
+    {
+      "path": "assets/finstrategy-core-09-a936c66e97d84960761f.png",
+      "source": "files/core-09-a936c66e97d84960761f.png",
+      "role": "image",
+      "bytes": 33552,
+      "sha256": "a936c66e97d84960761f39f65f1d4052af526c4b316eb9bc72b6ad6646fc9eb3"
+    },
+    {
+      "path": "assets/finstrategy-core-09-af75f8ba86cdfcebe824.pdf",
+      "source": "files/core-09-af75f8ba86cdfcebe824.pdf",
+      "role": "attachment",
+      "bytes": 115833,
+      "sha256": "af75f8ba86cdfcebe824b85480970bf52f6623dcf8fd89f68cd0285c0b7a8284"
+    },
+    {
+      "path": "assets/finstrategy-core-09-b02b931f4a5f77b3913f.pdf",
+      "source": "files/core-09-b02b931f4a5f77b3913f.pdf",
+      "role": "attachment",
+      "bytes": 120265,
+      "sha256": "b02b931f4a5f77b3913f8e68f5ceb8d09486e5895bd7eb9232d22159ec1ef5d0"
+    },
+    {
+      "path": "assets/finstrategy-core-09-b41e8f2151b0aade6f0d.pdf",
+      "source": "files/core-09-b41e8f2151b0aade6f0d.pdf",
+      "role": "attachment",
+      "bytes": 71559,
+      "sha256": "b41e8f2151b0aade6f0d6d8249df1db06d7ae3185dfbfde5da3a2c03446873fd"
+    },
+    {
+      "path": "assets/finstrategy-core-09-c0f6f473f17b3e4fbaa0.pdf",
+      "source": "files/core-09-c0f6f473f17b3e4fbaa0.pdf",
+      "role": "attachment",
+      "bytes": 83291,
+      "sha256": "c0f6f473f17b3e4fbaa0caae7c63b60813c3c03325317de1955dfe5260cc658d"
+    },
+    {
+      "path": "assets/finstrategy-core-09-c5ff4a4e2a8ca820fd4c.pdf",
+      "source": "files/core-09-c5ff4a4e2a8ca820fd4c.pdf",
+      "role": "attachment",
+      "bytes": 248039,
+      "sha256": "c5ff4a4e2a8ca820fd4c076d25d91d069f32b130959c76f9251220fead3f920e"
+    },
+    {
+      "path": "assets/finstrategy-core-09-c642bb719a0b968530be.pdf",
+      "source": "files/core-09-c642bb719a0b968530be.pdf",
+      "role": "attachment",
+      "bytes": 197151,
+      "sha256": "c642bb719a0b968530bec20c6c8396a428662f33ffb8cbe3350e7df3910cfe55"
+    },
+    {
+      "path": "assets/finstrategy-core-09-c7799fb0b7048d35a7a9.docx",
+      "source": "files/core-09-c7799fb0b7048d35a7a9.docx",
+      "role": "attachment",
+      "bytes": 14702,
+      "sha256": "c7799fb0b7048d35a7a9ce2d910f7ddf8da6fa4274ed903a71b9ae0eda32c7f5"
+    },
+    {
+      "path": "assets/finstrategy-core-09-cb015d0eede5cdbb79e3.png",
+      "source": "files/core-09-cb015d0eede5cdbb79e3.png",
+      "role": "image",
+      "bytes": 33714,
+      "sha256": "cb015d0eede5cdbb79e318b942eb745ff7056b6fd23b398b2a8b2abd5f2819b0"
+    },
+    {
+      "path": "assets/finstrategy-core-09-d8929577691142e9c99d.png",
+      "source": "files/core-09-d8929577691142e9c99d.png",
+      "role": "image",
+      "bytes": 30971,
+      "sha256": "d8929577691142e9c99de9430b6f7f933acc5f7bfc61e23ae3191c77d348ae09"
+    },
+    {
+      "path": "assets/finstrategy-core-09-e5de9c6d8a11b43bc080.png",
+      "source": "files/core-09-e5de9c6d8a11b43bc080.png",
+      "role": "image",
+      "bytes": 144353,
+      "sha256": "e5de9c6d8a11b43bc080e9086f5c9e04504a8b6a1ccc19c512de17ca5ccee983"
+    },
+    {
+      "path": "assets/finstrategy-core-09-f879f9391d335f1e78e4.png",
+      "source": "files/core-09-f879f9391d335f1e78e4.png",
+      "role": "image",
+      "bytes": 29365,
+      "sha256": "f879f9391d335f1e78e4fd574a2e23ea88ec270648f24bf84adb1392e916caed"
+    },
+    {
+      "path": "assets/finstrategy-core-09-fcdcef63be1e0c831810.pdf",
+      "source": "files/core-09-fcdcef63be1e0c831810.pdf",
+      "role": "attachment",
+      "bytes": 149578,
+      "sha256": "fcdcef63be1e0c831810290d843c5202a8319864c94aa6121105ed1a2f2c1d83"
+    },
+    {
+      "path": "assets/finstrategy-core-10-financial-health-progress.docx",
+      "source": "files/core-10-financial-health-progress.docx",
+      "role": "attachment",
+      "bytes": 14691,
+      "sha256": "fb0534427f96d23beca6488cf5d918e84a8c349109a5803be967c49ba1716fba"
+    },
+    {
       "path": "assets/finstrategy-core-10-image-0.png",
       "source": "files/core-10-image-0.png",
       "role": "image",
       "bytes": 58974,
       "sha256": "7905cf52223b13f237d322a03f4a92c9f73710469431d491c0d13bbf99b982d9"
+    },
+    {
+      "path": "assets/finstrategy-core-10-image-1.png",
+      "source": "files/core-10-image-1.png",
+      "role": "image",
+      "bytes": 255591,
+      "sha256": "fb1c1cee38737b1045af6fb152a7751061fe30f18aa02065217432478cd5b3bc"
+    },
+    {
+      "path": "assets/finstrategy-core-10-image-2.png",
+      "source": "files/core-10-image-2.png",
+      "role": "image",
+      "bytes": 440851,
+      "sha256": "1994971ed1cf457c28b616060774b4c2609e833a60e69e6d7d8adab9ae7d23e3"
+    },
+    {
+      "path": "assets/finstrategy-core-10-image-3.png",
+      "source": "files/core-10-image-3.png",
+      "role": "image",
+      "bytes": 375891,
+      "sha256": "1f840627844aa1e21f8b3857e3508fa7d8ba182d4a1f1165b7992152a4ee1270"
+    },
+    {
+      "path": "assets/finstrategy-core-10-image-4.png",
+      "source": "files/core-10-image-4.png",
+      "role": "image",
+      "bytes": 14687,
+      "sha256": "f9d14647d81fdd344d25f63c5533acdc12f2d0a965afc50d123558159a346256"
+    },
+    {
+      "path": "assets/finstrategy-core-10-image-5.png",
+      "source": "files/core-10-image-5.png",
+      "role": "image",
+      "bytes": 27358,
+      "sha256": "1738cb9f5695ba6734cfec1ca67a4cfaacac8647f840a51087b5147116f07c4f"
+    },
+    {
+      "path": "assets/finstrategy-core-10-point-of-assembly.docx",
+      "source": "files/core-10-point-of-assembly.docx",
+      "role": "attachment",
+      "bytes": 89591,
+      "sha256": "72264f077b7e7a66d8c25c66538e01cf40ffa342a9b9d12a1802888562658c8e"
     },
     {
       "path": "assets/finstrategy-core-212894254-02.png",
@@ -935,6 +2425,139 @@
       "role": "image",
       "bytes": 11249,
       "sha256": "dae45a0c1539097e2664bc45bc563ff9d7a1ddd73fe0cdf9289d84a015d94f22"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-0b9d0a3c2d52bbf18dfff950a4f55e64.png",
+      "source": "files/core-bonus-0b9d0a3c2d52bbf18dfff950a4f55e64.png",
+      "role": "image",
+      "bytes": 309744,
+      "sha256": "3b4d6fd6dc1b2f1ecb5f8d6706189b7f6b30a74854ca3636b7f163f686514937"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-4d39584040662e56bedd4621b8c37499.png",
+      "source": "files/core-bonus-4d39584040662e56bedd4621b8c37499.png",
+      "role": "image",
+      "bytes": 1167379,
+      "sha256": "2ef409f9cce1b303fc57b50f838b053fdb7c176bbe335288d23e503c5cb211ec"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-69b0328c576d9aac1a8e5322d20fc913.png",
+      "source": "files/core-bonus-69b0328c576d9aac1a8e5322d20fc913.png",
+      "role": "image",
+      "bytes": 69856,
+      "sha256": "c920e9d808e29f4ca8f8097afd517110861c0e209a24c10cb26f55ce8689d610"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-7715e0972588c0099ba2d9b28fff5bab.png",
+      "source": "files/core-bonus-7715e0972588c0099ba2d9b28fff5bab.png",
+      "role": "image",
+      "bytes": 110628,
+      "sha256": "15e119e662b0a29c39348c6d06b4582800232d35730642fe1731528ace544669"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-aa5561fc88d77fc61722c7a60357af6a.jpg",
+      "source": "files/core-bonus-aa5561fc88d77fc61722c7a60357af6a.jpg",
+      "role": "image",
+      "bytes": 112248,
+      "sha256": "a0971e520652cfb6589198b18e5fad26dcc55ff126d453ca231ed5ced47a2e27"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-bdd5da6443f1983422e957c35e1a7cc8.png",
+      "source": "files/core-bonus-bdd5da6443f1983422e957c35e1a7cc8.png",
+      "role": "image",
+      "bytes": 333084,
+      "sha256": "471c40ecfe95541cb101ddf297983e33156010487a94332e94d756ad5423903d"
+    },
+    {
+      "path": "assets/finstrategy-core-bonus-ebd7d3bbd348ba02a0257d1f4f92ccaa.png",
+      "source": "files/core-bonus-ebd7d3bbd348ba02a0257d1f4f92ccaa.png",
+      "role": "image",
+      "bytes": 126410,
+      "sha256": "0acf89ec6b20e25c8d6ff2223b169432bec370afe37b96e28c39af9de6518f04"
+    },
+    {
+      "path": "assets/finstrategy-core-children-books.pdf",
+      "source": "files/core-children-books.pdf",
+      "role": "attachment",
+      "bytes": 144285,
+      "sha256": "10b3af2ce913b98859ead89acad7e82763c195fa80bfb4c08543fc784a6b4105"
+    },
+    {
+      "path": "assets/finstrategy-core-common-diagnostics-analysis.png",
+      "source": "files/core-common-diagnostics-analysis.png",
+      "role": "image",
+      "bytes": 408588,
+      "sha256": "4d18d083ed1d69196913cdad19808c637e1b51f3010599913db173f99f0c381d"
+    },
+    {
+      "path": "assets/finstrategy-core-common-diagnostics-physical-health.bmp",
+      "source": "files/core-common-diagnostics-physical-health.bmp",
+      "role": "image",
+      "bytes": 1555338,
+      "sha256": "efd8aee13145ed316aff45244bfe2faf3bc24f50b5c3db2289d3295c46b980c4"
+    },
+    {
+      "path": "assets/finstrategy-core-common-green-logo.png",
+      "source": "files/core-common-green-logo.png",
+      "role": "image",
+      "bytes": 17413,
+      "sha256": "4bde241e6c087077090bfa0d1103d46013866e0019b76d2f26ffe61f8fb186fc"
+    },
+    {
+      "path": "assets/finstrategy-core-common-program.png",
+      "source": "files/core-common-program.png",
+      "role": "image",
+      "bytes": 346342,
+      "sha256": "d82ef85098ce20182b626c9ba1be1f5144aae342cd491122c92bf95118735001"
+    },
+    {
+      "path": "assets/finstrategy-core-common-start-portrait.png",
+      "source": "files/core-common-start-portrait.png",
+      "role": "image",
+      "bytes": 173534,
+      "sha256": "43de7dce7f4ea1f767de0fdbc3ed214d567b1992e9fea38aec693adea4965587"
+    },
+    {
+      "path": "assets/finstrategy-core-common-welcome-portrait.png",
+      "source": "files/core-common-welcome-portrait.png",
+      "role": "image",
+      "bytes": 275932,
+      "sha256": "f2da0ceb0e9c27efc35614a434c5a7227cc571d4603aa619988499388c6e6d36"
+    },
+    {
+      "path": "assets/finstrategy-core-generated-course-preparation.png",
+      "source": "files/core-generated-course-preparation.png",
+      "role": "image",
+      "bytes": 2532027,
+      "sha256": "09047cb0ba201a91a5c1b77636d75be67d870bb3b156481fbf7e85a0c7e177ef"
+    },
+    {
+      "path": "assets/finstrategy-core-generated-first-bank-card.png",
+      "source": "files/core-generated-first-bank-card.png",
+      "role": "image",
+      "bytes": 2404349,
+      "sha256": "ef684bcf1893b839da4de997fd5392405d3f1dc98116d2107dea6bca1db1fe2a"
+    },
+    {
+      "path": "assets/finstrategy-core-generated-first-earnings.png",
+      "source": "files/core-generated-first-earnings.png",
+      "role": "image",
+      "bytes": 2672070,
+      "sha256": "ca7206d6de754e271058b6b45587cf7144896126b5ba0d26328cf50e1d31a091"
+    },
+    {
+      "path": "assets/finstrategy-core-test-entry-illustration.png",
+      "source": "files/core-test-entry-illustration.png",
+      "role": "image",
+      "bytes": 83463,
+      "sha256": "9468b136dcdaf631f6d22192711ff462bbccd5d78816cb3924fb525a7f82a4e4"
+    },
+    {
+      "path": "assets/finstrategy-core-test-final-illustration.png",
+      "source": "files/core-test-final-illustration.png",
+      "role": "image",
+      "bytes": 595793,
+      "sha256": "8ceda32e1177050dbc877e013d09e1bcb3aea207d4e34e5d712b5043ac677d22"
     },
     {
       "path": "assets/finstrategy-diary.pdf",
@@ -1063,6 +2686,20 @@
       "sha256": "8148522cd647a8f49c33a37e05ba7e993ebbb8acb03bd261ee7994c76723e478"
     },
     {
+      "path": "assets/finstrategy-route-map.pdf",
+      "source": "files/route-map.pdf",
+      "role": "attachment",
+      "bytes": 650550,
+      "sha256": "e2b2bacdbd64e5fbd355e934d303f4bb3776484af9a5b368bd4d21d2e3c39120"
+    },
+    {
+      "path": "assets/finstrategy-statistics.pdf",
+      "source": "files/statistics.pdf",
+      "role": "attachment",
+      "bytes": 611724,
+      "sha256": "e5bdda7b7c5a452915e7d506e60e65d582d706a516e12105546293c21aecb000"
+    },
+    {
       "path": "assets/finstrategy-stickers.pdf",
       "source": "files/stickers.pdf",
       "role": "attachment",
@@ -1110,6 +2747,20 @@
       "role": "attachment",
       "bytes": 269554,
       "sha256": "1cf00450d9b0db25d5ac04cc5518e3d97ccd3e5762f477640e9cd86b31f5d91e"
+    },
+    {
+      "path": "assets/finstrategy-workbook-demo.docx",
+      "source": "files/workbook-demo.docx",
+      "role": "attachment",
+      "bytes": 264414,
+      "sha256": "75cf7213cfe4e21d41e435a6a9c1384a3a1fc3752f526ee5b1dc38e72af32210"
+    },
+    {
+      "path": "assets/finstrategy-workbook-full.docx",
+      "source": "files/workbook-full.docx",
+      "role": "attachment",
+      "bytes": 795417,
+      "sha256": "8812a94e814032f30bbc741b09c8b60d2c5c4de9071ec6dc0802832a2315d8dc"
     }
   ]
 }
