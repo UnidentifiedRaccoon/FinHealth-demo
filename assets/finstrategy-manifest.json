@@ -99,8 +99,8 @@
       "path": "assets/finstrategy-course.json",
       "source": "course.json",
       "role": "course",
-      "bytes": 1915301,
-      "sha256": "804e31c1f129e0574d5aa94f8849b4843893ad369abd618f6241600f6788590c"
+      "bytes": 1915282,
+      "sha256": "97917c81860f2d918fc795182364aa1b5c1e902a51ef460a653e4c8665bbc5c1"
     },
     {
       "path": "assets/finstrategy-bank-card.pdf",
