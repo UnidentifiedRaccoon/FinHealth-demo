@@ -7239,8 +7239,13 @@
                         }
                       }
                     ],
-                    "correctOptionId": "option-3",
-                    "questionPoints": 5
+                    "questionPoints": {
+                      "kind": "value",
+                      "value": 5
+                    },
+                    "correctOptionIds": [
+                      "option-3"
+                    ]
                   },
                   {
                     "id": "final-01-q2",
@@ -7276,8 +7281,13 @@
                         }
                       }
                     ],
-                    "correctOptionId": "option-2",
-                    "questionPoints": 5
+                    "questionPoints": {
+                      "kind": "value",
+                      "value": 5
+                    },
+                    "correctOptionIds": [
+                      "option-2"
+                    ]
                   },
                   {
                     "id": "final-01-q3",
@@ -7318,8 +7328,13 @@
                         }
                       }
                     ],
-                    "correctOptionId": "option-3",
-                    "questionPoints": 5
+                    "questionPoints": {
+                      "kind": "value",
+                      "value": 5
+                    },
+                    "correctOptionIds": [
+                      "option-3"
+                    ]
                   },
                   {
                     "id": "final-01-q4",
@@ -7370,8 +7385,13 @@
                         }
                       }
                     ],
-                    "correctOptionId": "option-2",
-                    "questionPoints": 5
+                    "questionPoints": {
+                      "kind": "value",
+                      "value": 5
+                    },
+                    "correctOptionIds": [
+                      "option-2"
+                    ]
                   },
                   {
                     "id": "final-01-q5",
@@ -7407,15 +7427,15 @@
                         }
                       }
                     ],
-                    "correctOptionId": "option-2",
-                    "questionPoints": 5
+                    "questionPoints": {
+                      "kind": "value",
+                      "value": 5
+                    },
+                    "correctOptionIds": [
+                      "option-2"
+                    ]
                   }
                 ],
-                "threshold": {
-                  "metric": "correct_questions",
-                  "operator": ">",
-                  "value": 0.5
-                },
                 "scoring": {
                   "kind": "single-answer-points"
                 },
@@ -7445,7 +7465,19 @@
                     "to": 25,
                     "text": " Вы отлично усвоили материал! Обязательно делитесь своими знаниями с другими людьми."
                   }
-                ]
+                ],
+                "result": {
+                  "score": "points",
+                  "outcome": {
+                    "metric": "correct_questions",
+                    "operator": ">",
+                    "value": 0.5
+                  }
+                },
+                "interaction": {
+                  "advance": "selection-then-next",
+                  "restart": "after-completion"
+                }
               }
             }
           ]
